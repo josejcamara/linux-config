@@ -11,14 +11,14 @@ sudo gpasswd -a $USER input
 sudo apt install xdotool wmctrl libinput-tools
 
 git clone https://github.com/bulletmark/libinput-gestures
-
 cd libinput-gestures
+sudo ./libinput-gestures-setup install
 
-sudo. /libinput-gestures-setup install
+Go back to this repo folder.
+
+Edit the "libinput-gestures.conf" file and review the key maps are the right ones for your linux version
 
 cp ./libinput-gestures.conf ~/.config/libinput-gestures.conf
-
-    Edit this conf file and review the key maps are the right ones for your linux version
 
 libinput-gestures-setup restart
 
@@ -28,5 +28,4 @@ libinput-gestures-setup restart
 
 ## Post steps
 
-- After having everything configured and working, we need to set this script to be run
-after every restart. Go to your system preferences and set a new on-start script
+- After having everything configured and working, we need to set this script to be run after every restart. Go to your system preferences and set a new on-start script
