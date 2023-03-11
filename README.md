@@ -1,7 +1,11 @@
 # Tweaks for Linux
 
+Install the "Extension Manager"
+> sudo apt install gnome-shell-extension-manager
+
 ## Clipboard History
 Use [this gnome extension](https://extensions.gnome.org/extension/4839/clipboard-history/) for having simple clipboard history.  
+Open the "Extension manager App" and browse for this extension name. Install from there.
 
 
 ## Super-X/C/V for Cut/Copy/Paste
@@ -18,8 +22,7 @@ applications, but this is a quick sumary.
  - Tweaks > Keyboard & Mouse > Overview Shortcut > Set "right super" (use Shift-Super-S for the overview)
 
 ### GTK 
- - GTK keybindings will cover many applications
- - Edit `~/.config/gtk-3.0/gtk.css`
+ - GTK keybindings will cover many applications. Edit `~/.config/gtk-3.0/gtk.css`
  ```
  @binding-set gtk-super-cut-copy-paste
 {
