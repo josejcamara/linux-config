@@ -10,8 +10,8 @@ Followed guide from:
 <!-- sudo apt install neovim  >> install OLD VERSION !!  -->
 > wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz  
 
-> alias nvim=\$HOME/nvim/bin/nvim  
-> echo 'nvim=\$HOME/nvim/bin/nvim' >> .zshrc
+> echo 'alias nvim=\$HOME/nvim/bin/nvim' >> .bashrc
+> echo 'alias nvim=\$HOME/nvim/bin/nvim' >> .zshrc
 
 > sudo apt-get install python3-neovim  
 > sudo apt-get install build-essential 
