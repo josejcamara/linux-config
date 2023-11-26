@@ -5,18 +5,24 @@ Followed guide from:
 
 ## Install tools
 
-### Install neovim
+### Install neovim > v0.9.4
 
-<!-- sudo apt install neovim  >> install OLD VERSION !!  -->
-> wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz  
 
-> echo 'alias nvim=\$HOME/nvim/bin/nvim' >> .bashrc
-> echo 'alias nvim=\$HOME/nvim/bin/nvim' >> .zshrc
+> Visit: https://github.com/neovim/neovim/releases/ for different OS  
+> Note: sudo apt install neovim  >> installed OLD VERSION for me !!  
+
+> wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+> tar xzvf nvim-linux64.tar.gz  
+> mv nvim-linux64 nvim  
+
+> echo 'alias nvim=$HOME/nvim/bin/nvim' >> .bashrc  
+> echo 'alias nvim=$HOME/nvim/bin/nvim' >> .zshrc  
 
 > sudo apt-get install python3-neovim  
 > sudo apt-get install build-essential 
 
 ### Install Nerd Font
+> Visit: https://github.com/JetBrains/JetBrainsMono for different OS.
 ```
 mkdir ~/.fonts
 cd ~/.fonts
@@ -25,12 +31,7 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsM
 unzip JetBrainsMono.zip
 
 Restart your terminal and go to preferences. Change the font to use in your profile
-
 ```
-
-
-
-> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
 
 ### Install NV Chad
 
