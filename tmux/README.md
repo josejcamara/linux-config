@@ -18,6 +18,7 @@ Install [TPM](https://github.com/tmux-plugins/tpm) (Tmux Package Manager)
 > git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 Install nerd-font
+> See https://github.com/JetBrains/JetBrainsMono for different OS.
 ```
 mkdir ~/.fonts
 cd ~/.fonts
